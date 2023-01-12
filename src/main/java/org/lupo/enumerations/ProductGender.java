@@ -5,6 +5,6 @@ public enum ProductGender {
     MAN,
     WOMAN,
     KID,
-    UNSEX
+    UNISEX
 
 }
