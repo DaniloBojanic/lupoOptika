@@ -1,4 +1,5 @@
-INSERT INTO user (first_name, last_name, email, password, user_role, username) VALUES ("Danilo", "Bojanic", "danilobojanic1@gmail.com", "$2a$10$EZdoJ7zlq9TO0JjvzWMfM.R.F5gohuybg583adbGIkTcQjiupaqaa", "ADMIN", "danilo");
+INSERT INTO user (first_name, last_name, email, password, user_role, username, phone_number, last_password_reset_date, first_login)
+VALUES ("Danilo", "Bojanic", "danilobojanic1@gmail.com", "$2a$10$EZdoJ7zlq9TO0JjvzWMfM.R.F5gohuybg583adbGIkTcQjiupaqaa", "ADMIN", "danilo", 123, CURRENT_TIMESTAMP, false);
 
 INSERT INTO product (on_sale, is_new, discount_percentage, price_before, price_after, name, description, price, product_gender, user_id) VALUES
   (true, false, 10, 90, 81, 'Proizvod 1', 'Opis proizvoda 1', 81, 'Muški', 1),
