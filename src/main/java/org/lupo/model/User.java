@@ -162,6 +162,7 @@ public class User implements UserDetails {
         this.products = products;
     }
 
+
     @Override
     public String toString() {
         return "User{" +
