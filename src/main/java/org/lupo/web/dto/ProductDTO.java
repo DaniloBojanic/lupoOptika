@@ -1,6 +1,10 @@
 package org.lupo.web.dto;
 
 import org.lupo.enumerations.ProductGender;
+
+import javax.persistence.EnumType;
+import javax.persistence.Enumerated;
+
 public class ProductDTO {
 
     private Long id;
@@ -20,7 +24,7 @@ public class ProductDTO {
     private String description;
 
     private double price;
-
+    @Enumerated(EnumType.STRING)
     private ProductGender productGender;
 
     public Long getId() {
